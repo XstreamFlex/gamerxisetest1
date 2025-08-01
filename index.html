@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GamerXiseTEST - Fitness for Gamers</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background: #f7f7f7;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #0078d7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .btn:hover {
+    background: #005eb8;
+  }
+  .btn-outline {
+    background: transparent;
+    border: 2px solid #0078d7;
+    color: #0078d7;
+  }
+  .btn-outline:hover {
+    background: #0078d7;
+    color: #fff;
+  }
+  .section {
+    padding: 100px 0;
+  }
+  .section-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 50px;
+  }
+  .section-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  .gradient-bg {
+    background: linear-gradient(160deg, #00b4d8 0%, #0083b0 100%);
+  }
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+  }
+  .neumorphism {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+  }
+  .parallax {
+    background-attachment: fixed;
+  }
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+    .section-title {
+      font-size: 2rem;
+    }
+    .section-subtitle {
+      font-size: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <header class="section" id="home">
+    <div class="container">
+      <h1 class="section-title">GamerXiseTEST</h1>
+      <p class="section-subtitle">Transform your gaming sessions into full-body workouts.</p>
+      <a href="#services" class="btn">Get Started</a>
+    </div>
+  </header>
+  <section class="section" id="value-proposition">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <div class="row">
+        <div class="col">
+          <div class="neumorphism">
+            <i class="fas fa-gamepad"></i>
+            <h3>Gaming & Fitness</h3>
+            <p>Combine your passion for gaming with the benefits of fitness.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="neumorphism">
+            <i class="fas fa-dumbbell"></i>
+            <h3>Full Body Workouts</h3>
+            <p>Strengthen your body and mind with our full-body, no-equipment workouts.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="neumorphism">
+            <i class="fas fa-users"></i>
+            <h3>Community</h3>
+            <p>Join a community of gamers who are improving their health and gaming skills.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="row">
+        <div class="col">
+          <div class="glassmorphism">
+            <i class="fas fa-calendar-check"></i>
+            <h3>GamerXise Monthly</h3>
+            <p>Get new workouts every month for just $27/month.</p>
+            <a href="#contact" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="glassmorphism">
+            <i class="fas fa-user-tie"></i>
+            <h3>GamerXise Client</h3>
+            <p>Personalized training for $100/month and $75 per session.</p>
+            <a href="#contact" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="glassmorphism">
+            <i class="fas fa-code-branch"></i>
+            <h3>GamerXise Programming</h3>
+            <p>Semi-personalized program for $100 assessment/programming fee and $60/month.</p>
+            <a href="#contact" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="social-proof">
+    <div class="container">
+      <h2 class="section-title">Social Proof</h2>
+      <div class="row">
+        <div class="col">
+          <div class="neumorphism">
+            <img src="testimonial1.jpg" alt="Testimonial 1">
+            <p>"GamerXise has helped me lose weight and improve my gaming skills!"</p>
+            <h4>- John Doe</h4>
+          </div>
+        </div>
+        <div class="col">
+          <div class="neumorphism">
+            <img src="testimonial2.jpg" alt="Testimonial 2">
+            <p>"I've never been more motivated to exercise and game at the same time!"</p>
+            <h4>- Jane Smith</h4>
+          </div>
+        </div>
+        <div class="col">
+          <div class="neumorphism">
+            <img src="testimonial3.jpg" alt="Testimonial 3">
+            <p>"GamerXise has changed my life for the better. I'm healthier and a better gamer."</p>
+            <h4>- Mike Johnson</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Pricing & Packages</h2>
+      <div class="row">
+        <div class="col">
+          <div class="glassmorphism">
+            <h3>GamerXise Monthly</h3>
+            <p>$27/month</p>
+            <ul>
+              <li>Monthly workouts</li>
+              <li>Guided workouts</li>
+              <li>Educational resources</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Plan</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="glassmorphism">
+            <h3>GamerXise Client</h3>
+            <p>$100/month + $75/session</p>
+            <ul>
+              <li>Personalized training</li>
+              <li>Assessment and monitoring</li>
+              <li>Game skill goals</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Plan</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="glassmorphism">
+            <h3>GamerXise Programming</h3>
+            <p>$100 assessment/programming fee + $60/month</p>
+            <ul>
+              <li>Semi-personalized program</li>
+              <li>Monthly updates</li>
+              <li>Unlimited adjustments</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <p class="section-subtitle">Our Story</p>
+      <div class="row">
+        <div class="col">
+          <img src="founder.jpg" alt="Founder">
+        </div>
+        <div class="col">
+          <p>Founded by gamers who understood the health challenges of long gaming sessions, GamerXise revolutionizes fitness by making it compatible with gaming. Our mission is to prove that you don't have to choose between your passion for gaming and your health. We believe in innovative solutions that fit into your lifestyle, not the other way around. Our values include inclusivity in the gaming community, sustainable health practices, and making fitness accessible to everyone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p>Email: contact@gamerxisetest.com</p>
+        <p>Phone: +1 (123) 456-7890</p>
+        <p>Address: 123 Game Street, Fitness City, USA</p>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="blog">
+    <div class="container">
+      <h2 class="section-title">Blog Preview</h2>
+      <div class="row">
+        <div class="col">
+          <div class="glassmorphism">
+            <img src="blog1.jpg" alt="Blog 1">
+            <h3>Why Gaming and Exercise are Better Together</h3>
+            <p>Discover the benefits of combining gaming and exercise...</p>
+            <a href="#contact" class="btn btn-outline">Read More</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="glassmorphism">
+            <img src="blog2.jpg" alt="Blog 2">
+            <h3>Health Benefits of Gaming and Exercise</h3>
+            <p>Learn how gaming and exercise can improve your health...</p>
+            <a href="#contact" class="btn btn-outline">Read More</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="glassmorphism">
+            <img src="blog3.jpg" alt="Blog 3">
+            <h3>The Best Fitness Games of 2025</h3>
+            <p>Find out which games are the best for fitness...</p>
+            <a href="#contact" class="btn btn-outline">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="section" id="footer">
+    <div class="container">
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-use.html">Terms of Use</a>
+      </nav>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p>&copy; 2023 GamerXiseTEST. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/yourfontawesomekit.js"></script>
+</body>
+</html>
